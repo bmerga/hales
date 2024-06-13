@@ -1,0 +1,21 @@
+CSS:
+        .top {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          height: 100vh;
+    
+        }
+        .top left group {
+          width: 100px;
+          height: 100px;
+          background-color: lightcoral;
+        }
+        .top left {
+            width: 100px;
+            height: 100px;
+            background-color: lightcoral;
+        .top center {
+                width: 100px;
+                height: 100px;
+                background-color: lightcoral;
