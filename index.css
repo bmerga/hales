@@ -1,19 +1,20 @@
 .flex-container {
    display: flex;
-   width: 2282px;
-   height: 1255px;
+   flex-direction: column;
+   width: 600px;
+   height: 500px;
    top: 645px;
    left: -1697px;
    padding: 115px 146px 116px 146px;
    gap: 0px;
    opacity: 0px;
    background-color: #CBCAF0;
-  }
+     }
 .first-child {
   display: flex;
   flex-direction: column;
-  width: 1990px;
-  height: 1024px;
+  width: 523px;
+  height: 408px;
   top: 115px;
   left: 146px;
   gap: 0px;
@@ -22,11 +23,5 @@
   background-color: #EEEEEE;
   border: solid rgb(30, 164, 182)
 }
-.first-child {
-  font-family: DM Sans;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 62.5px;
-  text-align: left;
-}
+
 
