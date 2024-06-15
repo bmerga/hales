@@ -1,21 +1,32 @@
-CSS:
-        .top {
-          display: flex;
-          justify-content: space-around;
-          align-items: center;
-          height: 100vh;
-    
-        }
-        .top left group {
-          width: 100px;
-          height: 100px;
-          background-color: lightcoral;
-        }
-        .top left {
-            width: 100px;
-            height: 100px;
-            background-color: lightcoral;
-        .top center {
-                width: 100px;
-                height: 100px;
-                background-color: lightcoral;
+.flex-container {
+   display: flex;
+   width: 2282px;
+   height: 1255px;
+   top: 645px;
+   left: -1697px;
+   padding: 115px 146px 116px 146px;
+   gap: 0px;
+   opacity: 0px;
+   background-color: #CBCAF0;
+  }
+.first-child {
+  display: flex;
+  flex-direction: column;
+  width: 1990px;
+  height: 1024px;
+  top: 115px;
+  left: 146px;
+  gap: 0px;
+  border-radius: 50px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #EEEEEE;
+  border: solid rgb(30, 164, 182)
+}
+.first-child {
+  font-family: DM Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 62.5px;
+  text-align: left;
+}
+
