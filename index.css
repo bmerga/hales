@@ -118,8 +118,7 @@ p, h1, h2, h3, h4, h5, h6 {
   }
 .middle {
   width: 609px;
-  height: 255px;
-  margin-top: 277px;
+  margin-top: 135px;
   margin-left: 138px;
   gap: 0px;
   opacity: 0px;
@@ -129,10 +128,19 @@ p, h1, h2, h3, h4, h5, h6 {
   line-height: 83.33px;
   text-align: left;
   }
+#best {
+  color: #5C5B8F;
+  }
+#education {
+  color: #161E64;
+}
+#in {
+  color: #5E5BFB;
+}
 .lorem {
-  width: 821px;
+  width: 830px;
   height: 126px;
-  margin-top: 549px;
+  margin-top: 18px;
   margin-left: 139px;
   gap: 0px;
   opacity: 0px;
