@@ -58,8 +58,7 @@ p, h1, h2, h3, h4, h5, h6 {
      }
 .first-child {
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
+  flex-direction: column;
   width: 1990px;
   height: 1024px;
   top: 115px;
@@ -70,8 +69,14 @@ p, h1, h2, h3, h4, h5, h6 {
   background-color: #EEEEEE;
   border: solid #0bd1b0 1px
   }
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1890px;
+  }
 .medical {
-  width: 185px;
+  width: 350px;
   height: 51px;
   margin-top: 72px;
   margin-left: 139px;
@@ -86,10 +91,9 @@ p, h1, h2, h3, h4, h5, h6 {
   }
 .home {
   display: flex;
-  align-content: space-between;
   margin-top: 83px;
   height: 47px;
-  gap: 50px;
+  gap: 70px;
   opacity: 0px;
   font-family: DM Sans;
   font-size: 36px;
@@ -97,56 +101,45 @@ p, h1, h2, h3, h4, h5, h6 {
   line-height: 46.87px;
   color:#000000;
       }
-.home1 {
-  width: 101px;
-  left: 538px;
-      }
-.aboutus {
-  width: 157px;
-  left: 699px;
-  }
-.pages {
-  width: 100px;
-  left: 916px;
-  }
-.services {
-  width: 145px;
-  left: 1076px;
- }
-.courses {
-  width: 141px;
-  left: 1281px;
-  }
-.blog {
-  width: 72px;
-  left: 1482px;
-  }
 .register {
-  border-radius: 10px 0px 0px 0px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
   width: 240px;
-  height: 71px;
-  margin-top: 61px;
-  left: 1671px;
-  gap: 0px;
+  height: 75px;
+  margin-top: 70px;
   opacity: 0px;
   font-family: DM Sans;
   font-size: 36px;
   font-weight: 500;
   line-height: 46.87px;
-  text-align: left;
   color: #FFFFFF;
   background-color: #423FE5;
   }
-.best {
-display: flex;
-width: 609px;
-height: 255px;
-margin-top: 277px;
-margin-left: 138px;
-gap: 00px;
-opacity: 0px;
-font-family: DM Sans;
-font-size: 64px;
-font-weight: 700;
-line-height: 83.33px; 
-}
+.middle {
+  width: 609px;
+  height: 255px;
+  margin-top: 277px;
+  margin-left: 138px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: DM Sans;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 83.33px;
+  text-align: left;
+  }
+.lorem {
+  width: 821px;
+  height: 126px;
+  margin-top: 549px;
+  margin-left: 139px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: DM Sans;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 41.66px;
+  text-align: left;
+  
+  }
