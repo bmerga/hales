@@ -45,8 +45,8 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 .flex-container {
+  flex-direction: column;
    display: flex;
-   flex-direction: column;
    width: 2282px;
    height: 1255px;
    top: 645px;
@@ -58,22 +58,23 @@ p, h1, h2, h3, h4, h5, h6 {
      }
 .first-child {
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
   width: 1990px;
   height: 1024px;
   top: 115px;
   left: 146px;
   gap: 0px;
-  border-radius: 50px 0px 0px 0px;
+  border-radius: 50px 50px 50px 50px;
   opacity: 0px;
   background-color: #EEEEEE;
-  border: solid rgb(30, 164, 182)
-}
+  border: solid #0bd1b0 1px
+  }
 .medical {
   width: 185px;
   height: 51px;
-  top: 72px;
-  left: 139px;
+  margin-top: 72px;
+  margin-left: 139px;
   gap: 0px;
   opacity: 0px;
   font-family: DM Sans;
@@ -85,105 +86,46 @@ p, h1, h2, h3, h4, h5, h6 {
   }
 .home {
   display: flex;
-  padding: 10px ;
-    }
-.home1 {
-  margin-right: 80px;
-  margin-left: 100px;
-  width: 101px;
+  align-content: space-between;
+  margin-top: 83px;
   height: 47px;
-  top: 83px;
-  left: 538px;
-  gap: 0px;
+  gap: 50px;
   opacity: 0px;
   font-family: DM Sans;
   font-size: 36px;
   font-weight: 500;
   line-height: 46.87px;
-  text-align: left;
   color:#000000;
-}
+      }
+.home1 {
+  width: 101px;
+  left: 538px;
+      }
 .aboutus {
-  margin-right: 80px;
   width: 157px;
-  height: 47px;
-  top: 83px;
   left: 699px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: DM Sans;
-  font-size: 36px;
-  font-weight: 500;
-  line-height: 46.87px;
-  text-align: left;
-  color: #000000;
-}
+  }
 .pages {
-  margin-right: 80px;
   width: 100px;
-  height: 47px;
-  top: 83px;
   left: 916px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: DM Sans;
-  font-size: 36px;
-  font-weight: 500;
-  line-height: 46.87px;
-  text-align: left;
-  color: #000000;
-}
+  }
 .services {
-  margin-right: 80px;
   width: 145px;
-  height: 47px;
-  top: 83px;
   left: 1076px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: DM Sans;
-  font-size: 36px;
-  font-weight: 500;
-  line-height: 46.87px;
-  text-align: left;
-  color: #000000;
-}
+ }
 .courses {
-  margin-right: 80px;
   width: 141px;
-  height: 47px;
-  top: 83px;
   left: 1281px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: DM Sans;
-  font-size: 36px;
-  font-weight: 500;
-  line-height: 46.87px;
-  text-align: left;
-  color: #000000;
-}
+  }
 .blog {
-  margin-right: 80px;
   width: 72px;
-  height: 47px;
-  top: 83px;
   left: 1482px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: DM Sans;
-  font-size: 36px;
-  font-weight: 500;
-  line-height: 46.87px;
-  text-align: left;
-  color: #000000;
-}
+  }
 .register {
-  padding: 20px;
-  margin-right: 80px;
-  width: 138px;
-  height: 44.73px;
-  top: 76px;
+  border-radius: 10px 0px 0px 0px;
+  width: 240px;
+  height: 71px;
+  margin-top: 61px;
   left: 1671px;
   gap: 0px;
   opacity: 0px;
