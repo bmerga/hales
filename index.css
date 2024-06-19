@@ -67,8 +67,9 @@ p, h1, h2, h3, h4, h5, h6 {
   border-radius: 50px 50px 50px 50px;
   opacity: 0px;
   background-color: #EEEEEE;
-  border: solid #0bd1b0 1px
-  }
+  border: solid #0bd1b0 1px;
+}
+
 .nav {
     display: flex;
     flex-direction: row;
@@ -117,12 +118,14 @@ p, h1, h2, h3, h4, h5, h6 {
 .middle {
   margin-top: 135px;
   margin-left: 138px;
+  height: 300px;
   font-family: DM Sans;
+  width: 900px;
   font-size: 64px;
   font-weight: 700;
   line-height: 83.33px;
   text-align: left;
-  }
+    }
 #best {
   color: #5C5B8F;
   }
@@ -144,22 +147,24 @@ p, h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   line-height: 41.66px;
   text-align: left;
+  
     }
 .form { 
   display: flex;
-  width: 47%;
+  width: 45%;
   height: 100px;
-  margin-left: 142px;
+  margin-left: 143px;
   font-size: 16px;
   background-color: white;
   font-family: DM Sans;
   font-size: 32px;
   font-weight: 500;
   line-height: 41.66px;
+  
     }
 .search {
   align-items: center;
-  margin-left: 38%;
+  margin-left: 34%;
   font-family: DM Sans;
   font-size: 30px;
   font-weight: 500;
@@ -167,7 +172,37 @@ p, h1, h2, h3, h4, h5, h6 {
   font-family: DM Sans;
   color: #FFFFFF;
   background-color: #423FE5;
-  }
+  border-radius: 0px 20px 20px 0px;  
+}
   .image {
-    
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+   height: 503px;
+   margin-top: -289px;
+   margin-left: 1400px;
   }
+  .image2 {
+   background-size: cover;
+   background-position: center;
+    width: 400px;
+   height: 503px;
+   margin-top: -300px;
+   margin-left: 960px;
+   border-radius: 20px 0px 0px 0px;
+     }
+  .get {
+    color: #FFFFFF;
+    width: 400px;
+    height: 130px;
+    margin-top: -240px;
+    margin-left: 1320px;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 0px;
+    font-family: DM Sans;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 41.66px;
+    text-align: left;
+    background-color: #7D7AFB;
+      }
