@@ -151,7 +151,7 @@ p, h1, h2, h3, h4, h5, h6 {
   line-height: 41.66px;
   text-align: left;
       }
-.form [type=text]{
+.form [type=text] {
   border: none;
   width: 600px;
   height: 100px;
