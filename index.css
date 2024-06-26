@@ -45,15 +45,12 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 .flex-container {
-  flex-direction: column;
    display: flex;
    width: 2282px;
    height: 1255px;
    top: 645px;
    left: -1697px;
    padding: 115px 146px 116px 146px;
-   gap: 0px;
-   opacity: 0px;
    background-color: #CBCAF0;
      }
 .first-child {
@@ -63,9 +60,7 @@ p, h1, h2, h3, h4, h5, h6 {
   height: 1024px;
   top: 115px;
   left: 146px;
-  gap: 0px;
   border-radius: 50px 50px 50px 50px;
-  opacity: 0px;
   background-color: #EEEEEE;
   
 }
@@ -74,18 +69,16 @@ p, h1, h2, h3, h4, h5, h6 {
   border-radius: 0px 0px 0px 0px;
 }
 .nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1890px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1890px;
   }
 .medical {
   width: 350px;
   height: 51px;
   margin-top: 72px;
   margin-left: 139px;
-  gap: 0px;
-  opacity: 0px;
   font-family: DM Sans;
   font-size: 48px;
   font-weight: 700;
@@ -143,8 +136,6 @@ p, h1, h2, h3, h4, h5, h6 {
   height: 126px;
   margin-top: 18px;
   margin-left: 139px;
-  gap: 0px;
-  opacity: 0px;
   font-family: DM Sans;
   font-size: 32px;
   font-weight: 400;
@@ -185,21 +176,19 @@ p, h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
   }
   .image {
-    background-size: cover;
     background-position: center;
     width: 400px;
-   height: 503px;
-   margin-top: -289px;
-   margin-left: 1400px;
+    height: 503px;
+    margin-top: -289px;
+    margin-left: 1400px;
   }
   .image2 {
-   background-size: cover;
-   background-position: center;
+    background-position: center;
     width: 400px;
-   height: 503px;
-   margin-top: -300px;
-   margin-left: 960px;
-   border-radius: 20px 0px 0px 0px;
+    height: 503px;
+    margin-top: -300px;
+    margin-left: 960px;
+    border-radius: 20px 0px 0px 0px;
      }
   .get {
     color: #FFFFFF;
@@ -208,7 +197,6 @@ p, h1, h2, h3, h4, h5, h6 {
     margin-top: -240px;
     margin-left: 1320px;
     border-radius: 20px 20px 20px 20px;
-    opacity: 0px;
     font-family: DM Sans;
     font-size: 32px;
     font-weight: 500;
