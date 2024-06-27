@@ -44,15 +44,7 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
-.flex-container {
-   display: flex;
-   width: 2282px;
-   height: 1255px;
-   top: 645px;
-   left: -1697px;
-   padding: 115px 146px 116px 146px;
-   background-color: #CBCAF0;
-     }
+
 .first-child {
   display: flex;
   flex-direction: column;
