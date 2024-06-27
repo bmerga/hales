@@ -192,8 +192,9 @@ p, h1, h2, h3, h4, h5, h6 {
      }
   .get {
     color: #FFFFFF;
+    padding: 25px;
     width: 400px;
-    height: 130px;
+    height: 185px;
     margin-top: -240px;
     margin-left: 1320px;
     border-radius: 20px 20px 20px 20px;
