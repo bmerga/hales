@@ -48,70 +48,62 @@ p, h1, h2, h3, h4, h5, h6 {
 .first-child {
   display: flex;
   flex-direction: column;
-  width: 1990px;
-  height: 1024px;
-  top: 115px;
-  left: 146px;
   border-radius: 50px 50px 50px 50px;
   background-color: #EEEEEE;
-  
-}
-.first-child:hover {
-  border: solid #09a2e9 5px;
-  border-radius: 0px 0px 0px 0px;
-}
+  }
+
 .nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 1890px;
+  width: 1290px;
   }
 .medical {
-  width: 350px;
-  height: 51px;
-  margin-top: 72px;
-  margin-left: 139px;
+  width: 234px;
+  height: 34px;
+  margin-top: 48px;
+  margin-left: 93px;
   font-family: DM Sans;
-  font-size: 48px;
+  font-size: 32px;
   font-weight: 700;
-  line-height: 62.5px;
+  line-height: 42px;
   text-align: left;
   color: #5E5BFB;
   }
 .home {
   display: flex;
-  margin-top: 83px;
-  height: 47px;
-  gap: 70px;
+  margin-top: 56px;
+  height: 31px;
+  gap: 47px;
   font-family: DM Sans;
-  font-size: 36px;
+  font-size: 24px;
   font-weight: 500;
-  line-height: 46.87px;
+  line-height: 31px;
   color:#000000;
       }
 .register {
   text-align: center;
-  padding: 10px;
+  padding: 7px;
   border-radius: 10px 10px 10px 10px;
-  width: 240px;
-  height: 75px;
-  margin-top: 70px;
+  width: 161px;
+  height: 50px;
+  margin-top: 47px;
   font-family: DM Sans;
-  font-size: 36px;
+  font-size: 24px;
   font-weight: 500;
   line-height: 46.87px;
   color: #FFFFFF;
   background-color: #423FE5;
   }
 .middle {
-  margin-top: 135px;
-  margin-left: 138px;
-  height: 300px;
+  margin-top: 90px;
+  margin-left: 92px;
+  height: 201px;
   font-family: DM Sans;
-  width: 900px;
-  font-size: 64px;
+  width: 603px;
+  font-size: 43px;
   font-weight: 700;
-  line-height: 83.33px;
+  line-height: 56px;
   text-align: left;
     }
 #best {
@@ -124,76 +116,75 @@ p, h1, h2, h3, h4, h5, h6 {
   color: #5E5BFB;
 }
 .lorem {
-  width: 45%;
-  height: 126px;
-  margin-top: 18px;
-  margin-left: 139px;
+  width: 40%;
+  height: 100%;
+  margin-top: 1%;
+  margin-left: 93px;
   font-family: DM Sans;
-  font-size: 32px;
+  font-size: 21px;
   font-weight: 400;
-  line-height: 41.66px;
+  line-height: 28px;
   text-align: left;
       }
 .form [type=text] {
   border: none;
-  width: 600px;
-  height: 100px;
-  padding-left: 60px ;
-  border-radius: 15px 15px 15px 15px;
+  width: 74%;
+  height: 67px;
+  padding-left: 40px ;
+  border-radius: 15px 0px 0px 15px;
   background-color: white;
   font-family: DM Sans;
-  font-size: 32px;
+  font-size: 21px;
   font-weight: 500;
-  line-height: 41.66px;
-  background-image: url<i class="fa-solid fa-magnifying-glass"></i>;
-}
+  line-height: 28px;
+    }
 
 .button [type=button] {
   display: flex;
-  width: 319px;
-  height: 100px;
-  margin-top: -100px;
+  width: 37%;
+  height: 67px;
+  margin-top: -67px;
   align-content:center;
   border-radius: 0px 15px 15px 0px;
-  margin-left: 600px;
+  margin-left: 74%;
   font-family: DM Sans;
-  font-size: 32px;
+  font-size: 21px;
   font-weight: 500;
-  line-height: 41.66px;
+  line-height: 28px;
   font-family: DM Sans;
   color: #FFFFFF;
   background-color: #423FE5;
   }
-  .button:hover  [type=button]{
-    cursor: pointer;
-  }
+  
   .image {
     background-position: center;
-    width: 400px;
-    height: 503px;
-    margin-top: -289px;
-    margin-left: 1400px;
+    width: 50%;
+    height: 140%;
+    margin-top: -30%;
+    margin-left: 938px;
+    border-radius: 10px;
+  
   }
   .image2 {
     background-position: center;
-    width: 400px;
-    height: 503px;
-    margin-top: -300px;
-    margin-left: 960px;
-    border-radius: 20px 0px 0px 0px;
+    width: 40%;
+    height: 160%;
+    margin-top: -201px;
+    margin-left: 660px;
+    border-radius: 10px;
      }
   .get {
     color: #FFFFFF;
-    padding: 25px;
-    width: 400px;
-    height: 185px;
-    margin-top: -240px;
-    margin-left: 1320px;
-    border-radius: 20px 20px 20px 20px;
+    padding: 1.5% 1% 1% %;
+    width: 45%;
+    height: 124px;
+    margin-top: -161px;
+    margin-left: 870px;
+    border-radius: 10px;
     font-family: DM Sans;
-    font-size: 32px;
+    font-size: 21px;
     font-weight: 500;
-    line-height: 41.66px;
+    line-height: 38px;
     text-align: left;
     background-color: #7D7AFB;
       }
