@@ -96,6 +96,8 @@ p, h1, h2, h3, h4, h5, h6 {
   background-color: #423FE5;
   }
 .middle {
+  display: flex;
+  flex-direction: column;
   margin-top: 90px;
   margin-left: 92px;
   height: 201px;
@@ -118,7 +120,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .lorem {
   width: 40%;
   height: 100%;
-  margin-top: 1%;
+  margin-top: -200px;
   margin-left: 93px;
   font-family: DM Sans;
   font-size: 21px;
@@ -157,29 +159,33 @@ p, h1, h2, h3, h4, h5, h6 {
   }
   
   .image {
+    display: flex;
     background-position: center;
-    width: 50%;
-    height: 140%;
-    margin-top: -30%;
-    margin-left: 938px;
+    background-size:cover;
+    width: 270px;
+    height: 300px;
+    margin-top: -220px;
+    margin-left: 1070px;
     border-radius: 10px;
-  
+      
   }
   .image2 {
+    display: flex;
     background-position: center;
-    width: 40%;
-    height: 160%;
-    margin-top: -201px;
-    margin-left: 660px;
+    background-size: cover;
+    width: 270px;
+    height: 300px;
+    margin-top: -160px;
+    margin-left: 750px;
     border-radius: 10px;
      }
   .get {
     color: #FFFFFF;
     padding: 1.5% 1% 1% %;
-    width: 45%;
-    height: 124px;
-    margin-top: -161px;
-    margin-left: 870px;
+    width: 300px;
+    height: 114px;
+    margin-top: -145px;
+    margin-left: 945px;
     border-radius: 10px;
     font-family: DM Sans;
     font-size: 21px;
